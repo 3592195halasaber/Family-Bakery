@@ -1,0 +1,429 @@
+body {
+  font-family: "Alegreya Sans";
+  margin: 0%;
+}
+html {
+  scroll-padding-top: 100px;
+  scroll-behavior: smooth;
+}
+.nav {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background-color: rgb(241, 244, 246);
+  z-index: 1000;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.nav img {
+  width: 150px;
+  padding-top: 20px;
+  padding-left: 40px;
+  float: left;
+}
+
+.nav li {
+  margin: 20px;
+  display: inline;
+}
+
+.nav ul {
+  position: absolute;
+  top: 15%;
+  right: 5%;
+
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.home {
+  background-image: url(../../images/drew.jpg);
+  text-align: center;
+  color: aliceblue;
+  height: 120vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.welcome h2 {
+  font-size: 25px;
+  font-family: "Alegreya Sans";
+  font-weight: 300;
+  line-height: 0%;
+}
+
+.welcome p {
+  font-size: 25px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  line-height: 20%;
+}
+
+.welcome {
+  padding: 20%;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 400;
+  font-family: "Alegreya Sans";
+  line-height: 55%;
+}
+
+.lm {
+  background-color: rgb(142, 119, 84);
+  color: aliceblue;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 18px 32px;
+
+  border: 0;
+}
+
+.lm:active {
+  background-color: rgb(136, 98, 42);
+}
+
+.us {
+  text-align: center;
+  background: none;
+  font-size: 20px;
+  color: azure;
+  border-radius: 5px;
+  padding: 18px 32px;
+  border: 2px white solid;
+}
+
+.bread {
+  vertical-align: middle;
+  display: inline-block;
+  width: 40%;
+  margin-right: 5%;
+  margin-left: 4%;
+  margin-bottom: 10%;
+  position: relative;
+  overflow: hidden;
+}
+
+.bread:hover .layer {
+  transform: translateY(0%);
+  color: antiquewhite;
+  transition: all 3s;
+}
+.bread:hover img {
+  transform: scale(1.1);
+}
+.bread img {
+  transition: all 3s;
+}
+.layer {
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.397);
+  position: absolute;
+  margin: auto;
+  text-align: center;
+  padding-top: 30%;
+  transform: translateY(100%);
+}
+
+.Qa {
+  font-weight: 350;
+  margin-right: 10px;
+  display: inline-block;
+  width: 40%;
+  vertical-align: middle;
+  font-family: "Alegreya Sans";
+  padding-bottom: 15%;
+  padding-top: 5%;
+  line-height: 1.8;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 450;
+}
+
+.location-bekery {
+  background-color: rgb(248, 248, 248);
+}
+.section-location {
+  background-color: #8f7854;
+  color: aliceblue;
+  display: flex;
+}
+.section-location-layer {
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.397);
+  position: absolute;
+  margin: auto;
+  text-align: center;
+  padding-top: 30%;
+  transform: translateY(100%);
+  transition: all 2s;
+}
+.bakery:hover .section-location-layer {
+  transform: translateY(0%);
+  color: antiquewhite;
+}
+.location {
+  text-align: left;
+  vertical-align: middle;
+
+  width: 40%;
+  margin: 10%;
+  margin-left: 4%;
+  margin-bottom: 10%;
+  line-height: 1.8;
+}
+.bakery:hover img {
+  transform: scale(1.1);
+}
+
+.bakery img {
+  overflow: hidden;
+  transition: all 3s;
+}
+.bakery {
+  overflow: hidden;
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 10%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  position: relative;
+}
+
+.baking {
+  text-align: center;
+  padding-bottom: 3%;
+  line-height: 1.8;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.ben {
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  text-align: center;
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+.ben h2 {
+  font-weight: 400;
+  font-size: 20;
+}
+
+.ben-3 {
+  vertical-align: middle;
+  float: right;
+  width: 30%;
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+  line-height: 1.8;
+}
+
+.ben-2 {
+  vertical-align: middle;
+  float: left;
+  width: 30%;
+  padding-left: 2.5%;
+
+  line-height: 1.8;
+}
+
+.ben-1 {
+  vertical-align: middle;
+  float: left;
+  width: 30%;
+  padding-left: 2.5%;
+  line-height: 1.8;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.leaf {
+  width: 7%;
+  vertical-align: middle;
+  border-style: groove;
+  border-color: rgb(255, 255, 255);
+  border-radius: 100%;
+}
+
+.people {
+  width: 7%;
+  vertical-align: middle;
+  border-style: groove;
+  border-color: rgb(252, 252, 252);
+  border-radius: 100%;
+}
+
+.heart {
+  width: 7%;
+  vertical-align: middle;
+  border-style: groove;
+  border-color: rgb(253, 253, 253);
+  border-radius: 100%;
+}
+
+.check {
+  width: 7%;
+  vertical-align: middle;
+  border-style: groove;
+  border-color: rgb(255, 255, 255);
+  border-radius: 100%;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.icon img {
+  width: 7%;
+  vertical-align: middle;
+  background-color: rgb(142, 119, 84);
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+.contact h2 {
+  font-weight: 400;
+  font-size: 30;
+}
+
+.user {
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  font-weight: 300;
+  text-align: left;
+  line-height: 1.8;
+  background-color: #8f7854;
+  margin-bottom: 10%;
+  color: aliceblue;
+  padding: 20px;
+}
+
+.contact {
+  padding-left: 4%;
+  padding-bottom: 5%;
+  text-align: left;
+  width: 40%;
+  line-height: 1.5;
+  float: left;
+}
+
+.iframe {
+  padding-right: 10%;
+  padding-top: 2.5%;
+  float: right;
+  width: 40%;
+  position: relative;
+  overflow: hidden;
+}
+
+.indix {
+  background-color: rgb(64, 61, 56);
+  padding: 3%;
+}
+
+.head {
+  padding-left: 5%;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.About {
+  width: 25%;
+  color: #b3b1b1cc;
+  line-height: 2;
+  float: left;
+  margin: auto;
+}
+
+.icon-2 img {
+  width: 5%;
+  vertical-align: middle;
+}
+
+.Q {
+  width: 25%;
+  color: #b3b1b1cc;
+  line-height: 2.2;
+  float: left;
+}
+
+.icon-3 img {
+  width: 5%;
+}
+
+.icon-3 li {
+  border: #f7f1f1c5;
+}
+
+.week {
+  width: 25%;
+  color: #b3b1b1cc;
+  line-height: 2.7;
+  float: left;
+}
+
+.icon-4 img {
+  width: 10%;
+  vertical-align: middle;
+}
+
+.icon-4 {
+  background-image: url(../../images/contact-details-map.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.detils {
+  width: 25%;
+  color: #b3b1b1cc;
+  line-height: 2.7;
+  float: left;
+}
+
+.background {
+  height: 50%;
+  background-color: rgb(53, 51, 48);
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 5%;
+}
+
+.background img {
+  width: 30%;
+}
+
+.social-media img {
+  width: 3%;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: rgba(241, 250, 253, 0.747);
+}
+
+h5 {
+  color: #969696a9;
+  line-height: 1.8;
+}
+li a {
+  text-decoration: none;
+  color: black;
+}
